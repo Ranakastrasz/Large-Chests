@@ -1,0 +1,11 @@
+
+{
+  "name": "LargeBoxes",
+  "version": "0.1.0",
+  "title": "Large Boxes",
+  "author": "Ranakastrasz",
+  "contact": "~",
+  "homepage": "",
+  "description": "Adds dytech-like Larger chests, as well as altering recipes to make higher level chests all use lower level chests.",
+  "dependencies": ["base"]
+}

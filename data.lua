@@ -1,0 +1,10 @@
+require("prototypes.chest-entity")
+require("prototypes.chest-item")
+require("prototypes.chest-recipe")
+require("prototypes.chest-tech")
+require("prototypes.logistic-chest-entity")
+require("prototypes.logistic-chest-item")
+require("prototypes.logistic-chest-recipe")
+require("prototypes.logistic-chest-tech")
+
+require("prototypes.item-groups")
