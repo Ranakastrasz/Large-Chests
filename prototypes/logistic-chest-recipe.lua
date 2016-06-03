@@ -7,7 +7,7 @@ data:extend(
     ingredients = 
 	{
 		{"steel-chest-medium", 1},
-		{"electronic-circuit", 12}
+		{"advanced-circuit", 3}
 	},
     result = "smart-chest-medium"
   },
@@ -18,7 +18,7 @@ data:extend(
     ingredients = 
 	{
 		{"steel-chest-big", 1},
-		{"electronic-circuit", 24}
+		{"processing-unit", 3}
 	},
     result = "smart-chest-big"
   },
@@ -29,7 +29,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-medium", 1},
-		{"advanced-circuit", 4}
+		{"processing-unit", 1}
 	},
     result = "logistic-chest-requester-medium"
   },
@@ -40,7 +40,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-medium", 1},
-		{"advanced-circuit", 4}
+		{"processing-unit", 1}
 	},
     result = "logistic-chest-storage-medium"
   },
@@ -51,7 +51,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-medium", 1},
-		{"advanced-circuit", 4}
+		{"processing-unit", 1}
 	},
     result = "logistic-chest-active-provider-medium"
   },
@@ -62,7 +62,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-medium", 1},
-		{"advanced-circuit", 4}
+		{"processing-unit", 1}
 	},
     result = "logistic-chest-passive-provider-medium"
   },
@@ -73,7 +73,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-big", 1},
-		{"advanced-circuit", 8}
+		{"processing-unit", 10}
 	},
     result = "logistic-chest-requester-big"
   },
@@ -84,7 +84,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-big", 1},
-		{"advanced-circuit", 8}
+		{"processing-unit", 10}
 	},
     result = "logistic-chest-storage-big"
   },
@@ -95,7 +95,7 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-big", 1},
-		{"advanced-circuit", 8}
+		{"processing-unit", 10}
 	},
     result = "logistic-chest-active-provider-big"
   },
@@ -106,9 +106,20 @@ data:extend(
     ingredients = 
 	{
 		{"smart-chest-big", 1},
-		{"advanced-circuit", 8}
+		{"processing-unit", 10}
 	},
     result = "logistic-chest-passive-provider-big"
+  },
+  {
+    type = "recipe",
+    name = "buffer-chest",
+	enabled = false,
+    ingredients = 
+	{
+		{"smart-chest", 1},
+		{"advanced-circuit", 1}
+	},
+    result = "buffer-chest"
   },
 }
 )

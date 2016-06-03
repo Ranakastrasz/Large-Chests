@@ -5,7 +5,7 @@ data:extend(
     name = "Chests",
     order = "c-1",
 	inventory_order = "c-1",
-    icon = "__Chests__/graphics/technology/chest.png",
+    icon = "__Large-Chests__/graphics/technology/chest.png",
   },
   {
     type = "item-subgroup",

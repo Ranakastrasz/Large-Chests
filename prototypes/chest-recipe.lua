@@ -17,7 +17,7 @@ data:extend(
     ingredients = 
 	{
         {"wooden-chest-medium", 1},
-		{"iron-plate", 24}
+		{"iron-plate", 32} -- 24
 	},
     result = "iron-chest-medium"
   },
@@ -28,7 +28,7 @@ data:extend(
     ingredients = 
 	{
         {"iron-chest-medium", 1},
-		{"steel-plate", 24}
+		{"steel-plate", 32} -- 24
 	},
     result = "steel-chest-medium"
   },
@@ -49,7 +49,7 @@ data:extend(
     ingredients = 
 	{
         {"wooden-chest-big", 1},
-		{"iron-plate", 54}
+		{"iron-plate", 64} -- 48
 	},
     result = "iron-chest-big"
   },
@@ -60,13 +60,13 @@ data:extend(
     ingredients = 
 	{
         {"iron-chest-big", 1},
-		{"steel-plate", 54}
+		{"steel-plate", 64} -- 48
 	},
     result = "steel-chest-big"
   },
 }
 )
-data.raw["recipe"]["iron-chest"].ingredients = 
+--[[data.raw["recipe"]["iron-chest"].ingredients = 
 {
 	{"wooden-chest", 1},
 	{"iron-plate", 6} -- 8
@@ -75,5 +75,5 @@ data.raw["recipe"]["steel-chest"].ingredients =
 {
 	{"iron-chest", 1},
 	{"steel-plate", 6} -- 8
-}
+}]]--
 	

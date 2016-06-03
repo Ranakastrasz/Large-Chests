@@ -2,8 +2,18 @@ data:extend(
 {
   {
     type = "item",
+    name = "buffer-chest",
+    icon = "__Large-Chests__/graphics/icons/buffer-chest.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "small-chest",
+    order = "k-c-m",
+    place_result = "buffer-chest",
+    stack_size = 50
+  },
+  {
+    type = "item",
     name = "smart-chest-medium",
-    icon = "__Chests__/graphics/icons/smart-chest-plus.png",
+    icon = "__Large-Chests__/graphics/icons/smart-chest-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "k-c-m",
@@ -13,7 +23,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-requester-medium",
-    icon = "__Chests__/graphics/icons/logistic-chest-requester-plus.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-requester-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "l-c-m",
@@ -23,7 +33,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-storage-medium",
-    icon = "__Chests__/graphics/icons/logistic-chest-storage-plus.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-storage-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "l-c-m",
@@ -33,7 +43,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-active-provider-medium",
-    icon = "__Chests__/graphics/icons/logistic-chest-active-provider-plus.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-active-provider-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "l-c-m",
@@ -43,7 +53,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-passive-provider-medium",
-    icon = "__Chests__/graphics/icons/logistic-chest-passive-provider-plus.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-passive-provider-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "l-c-m",
@@ -53,7 +63,7 @@ data:extend(
   {
     type = "item",
     name = "smart-chest-big",
-    icon = "__Chests__/graphics/icons/smart-chest-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/smart-chest-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "k-c-mb",
@@ -63,7 +73,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-requester-big",
-    icon = "__Chests__/graphics/icons/logistic-chest-requester-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-requester-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "l-c-mb",
@@ -73,7 +83,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-storage-big",
-    icon = "__Chests__/graphics/icons/logistic-chest-storage-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-storage-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "l-c-mb",
@@ -83,7 +93,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-active-provider-big",
-    icon = "__Chests__/graphics/icons/logistic-chest-active-provider-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-active-provider-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "l-c-mb",
@@ -93,7 +103,7 @@ data:extend(
   {
     type = "item",
     name = "logistic-chest-passive-provider-big",
-    icon = "__Chests__/graphics/icons/logistic-chest-passive-provider-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-passive-provider-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "l-c-mb",

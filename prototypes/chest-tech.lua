@@ -4,7 +4,7 @@ data:extend(
   {
     type = "technology",
     name = "chest-1",
-    icon = "__Chests__/graphics/technology/chest.png",
+    icon = "__Large-Chests__/graphics/technology/chest.png",
     effects =
     {
       {
@@ -36,7 +36,7 @@ data:extend(
   {
     type = "technology",
     name = "chest-2",
-    icon = "__Chests__/graphics/technology/chest.png",
+    icon = "__Large-Chests__/graphics/technology/chest.png",
     effects =
     {
       {

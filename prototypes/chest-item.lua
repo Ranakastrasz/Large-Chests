@@ -3,7 +3,7 @@ data:extend(
   {
     type = "item",
     name = "wooden-chest-medium",
-    icon = "__Chests__/graphics/icons/wooden-chest-plus.png",
+    icon = "__Large-Chests__/graphics/icons/wooden-chest-plus.png",
     flags = {"goes-to-quickbar"},
     fuel_value = "24MJ",
     subgroup = "medium-chest",
@@ -14,7 +14,7 @@ data:extend(
   {
     type = "item",
     name = "iron-chest-medium",
-    icon = "__Chests__/graphics/icons/iron-chest-plus.png",
+    icon = "__Large-Chests__/graphics/icons/iron-chest-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "c-m-2",
@@ -24,7 +24,7 @@ data:extend(
   {
     type = "item",
     name = "steel-chest-medium",
-    icon = "__Chests__/graphics/icons/steel-chest-plus.png",
+    icon = "__Large-Chests__/graphics/icons/steel-chest-plus.png",
     flags = {"goes-to-quickbar"},
     subgroup = "medium-chest",
     order = "c-m-3",
@@ -34,7 +34,7 @@ data:extend(
   {
     type = "item",
     name = "wooden-chest-big",
-    icon = "__Chests__/graphics/icons/wooden-chest-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/wooden-chest-plus2.png",
     flags = {"goes-to-quickbar"},
     fuel_value = "24MJ",
     subgroup = "big-chest",
@@ -45,7 +45,7 @@ data:extend(
   {
     type = "item",
     name = "iron-chest-big",
-    icon = "__Chests__/graphics/icons/iron-chest-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/iron-chest-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "c-ml-2",
@@ -55,7 +55,7 @@ data:extend(
   {
     type = "item",
     name = "steel-chest-big",
-    icon = "__Chests__/graphics/icons/steel-chest-plus2.png",
+    icon = "__Large-Chests__/graphics/icons/steel-chest-plus2.png",
     flags = {"goes-to-quickbar"},
     subgroup = "big-chest",
     order = "c-ml-3",

@@ -3,12 +3,16 @@ data:extend(
   {
     type = "technology",
     name = "chest-3",
-    icon = "__Chests__/graphics/technology/chest.png",
+    icon = "__Large-Chests__/graphics/technology/chest.png",
     effects =
     {
 	  {
         type = "unlock-recipe",
         recipe = "smart-chest-medium"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "buffer-chest"
       },
       {
         type = "unlock-recipe",
@@ -45,7 +49,7 @@ data:extend(
   {
     type = "technology",
     name = "chest-4",
-    icon = "__Chests__/graphics/technology/chest.png",
+    icon = "__Large-Chests__/graphics/technology/chest.png",
     effects =
     {
 	  {
