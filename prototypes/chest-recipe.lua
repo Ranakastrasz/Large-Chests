@@ -66,14 +66,14 @@ data:extend(
   },
 }
 )
---[[data.raw["recipe"]["iron-chest"].ingredients = 
+data.raw["recipe"]["iron-chest"].ingredients = 
 {
 	{"wooden-chest", 1},
-	{"iron-plate", 6} -- 8
+	{"iron-plate", 8} -- 8
 }
 data.raw["recipe"]["steel-chest"].ingredients = 
 {
 	{"iron-chest", 1},
-	{"steel-plate", 6} -- 8
-}]]--
+	{"steel-plate", 8} -- 8
+}
 	
