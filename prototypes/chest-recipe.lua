@@ -6,7 +6,7 @@ data:extend(
 	enabled = true,
     ingredients = 
 	{
-		{"wood", 8}
+		{"wood", 8},
 		{"iron-plate", 8}
 	},
     result = "wooden-chest-medium"
