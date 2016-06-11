@@ -3,10 +3,11 @@ data:extend(
   {
     type = "recipe",
     name = "wooden-chest-medium",
-	enabled = false,
+	enabled = true,
     ingredients = 
 	{
-		{"wood", 16}
+		{"wood", 8}
+		{"iron-plate", 8}
 	},
     result = "wooden-chest-medium"
   },
@@ -17,7 +18,8 @@ data:extend(
     ingredients = 
 	{
         {"wooden-chest-medium", 1},
-		{"iron-plate", 32} -- 24
+		{"iron-plate", 16}, -- 24
+		{"steel-plate", 8}
 	},
     result = "iron-chest-medium"
   },
@@ -38,7 +40,8 @@ data:extend(
 	enabled = false,
     ingredients = 
 	{
-		{"wood", 32}
+		{"wood", 16},
+		{"iron-plate", 16}
 	},
     result = "wooden-chest-big"
   },
@@ -49,7 +52,8 @@ data:extend(
     ingredients = 
 	{
         {"wooden-chest-big", 1},
-		{"iron-plate", 64} -- 48
+		{"iron-plate", 32},
+		{"steel-plate", 16} -- 48
 	},
     result = "iron-chest-big"
   },
