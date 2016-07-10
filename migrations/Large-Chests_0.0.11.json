@@ -1,0 +1,12 @@
+{
+  "item":
+  [
+    ["smart-chest-medium", "steel-chest-medium"],
+    ["smart-chest-big"   , "steel-chest-big"   ]
+  ],
+  "entity":
+  [
+    ["smart-chest-medium", "steel-chest-medium"],
+    ["smart-chest-big"   , "steel-chest-big"   ]
+  ]
+}

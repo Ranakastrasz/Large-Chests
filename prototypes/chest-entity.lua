@@ -53,7 +53,21 @@ data:extend(
       width = 92,
       height = 66,
       shift = {0.4, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
   {
     type = "container",
@@ -88,7 +102,21 @@ data:extend(
       width = 96,
       height = 68,
       shift = {0.4, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
   {
     type = "container",
@@ -123,7 +151,21 @@ data:extend(
       width = 96,
       height = 68,
       shift = {0.4, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
   {
     type = "container",
@@ -153,7 +195,21 @@ data:extend(
       width = 138,
       height = 99,
       shift = {0.8, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
   {
     type = "container",
@@ -188,7 +244,21 @@ data:extend(
       width = 144,
       height = 102,
       shift = {0.8, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
   {
     type = "container",
@@ -223,7 +293,21 @@ data:extend(
       width = 144,
       height = 102,
       shift = {0.8, 0}
-    }
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
+    circuit_wire_max_distance = 7.5
   },
 }
 )

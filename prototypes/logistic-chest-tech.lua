@@ -8,10 +8,6 @@ data:extend(
     {
 	  {
         type = "unlock-recipe",
-        recipe = "smart-chest-medium"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "buffer-chest"
       },
 	  {
@@ -44,10 +40,6 @@ data:extend(
     icon = "__Large-Chests__/graphics/technology/chest.png",
     effects =
     {
-	  {
-        type = "unlock-recipe",
-        recipe = "smart-chest-big"
-      },
 	  {
         type = "unlock-recipe",
         recipe = "logistic-chest-storage-big"

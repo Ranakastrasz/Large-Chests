@@ -12,16 +12,6 @@ data:extend(
   },
   {
     type = "item",
-    name = "smart-chest-medium",
-    icon = "__Large-Chests__/graphics/icons/smart-chest-plus.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "medium-chest",
-    order = "k-c-m",
-    place_result = "smart-chest-medium",
-    stack_size = 50
-  },
-  {
-    type = "item",
     name = "logistic-chest-requester-medium",
     icon = "__Large-Chests__/graphics/icons/logistic-chest-requester-plus.png",
     flags = {"goes-to-quickbar"},
@@ -58,16 +48,6 @@ data:extend(
     subgroup = "medium-chest",
     order = "l-c-m",
     place_result = "logistic-chest-passive-provider-medium",
-    stack_size = 50
-  },
-  {
-    type = "item",
-    name = "smart-chest-big",
-    icon = "__Large-Chests__/graphics/icons/smart-chest-plus2.png",
-    flags = {"goes-to-quickbar"},
-    subgroup = "big-chest",
-    order = "k-c-mb",
-    place_result = "smart-chest-big",
     stack_size = 50
   },
   {
@@ -116,4 +96,3 @@ data.raw["item"]["logistic-chest-requester"].subgroup = "small-chest"
 data.raw["item"]["logistic-chest-storage"].subgroup = "small-chest"
 data.raw["item"]["logistic-chest-active-provider"].subgroup = "small-chest"
 data.raw["item"]["logistic-chest-passive-provider"].subgroup = "small-chest"
-data.raw["item"]["smart-chest"].subgroup = "small-chest"

@@ -12,7 +12,7 @@ New
 data:extend(
 {
   {
-    type = "smart-container",
+    type = "container",
     name = "buffer-chest",
     icon = "__Large-Chests__/graphics/icons/buffer-chest.png",
     flags = {"placeable-neutral", "player-creation"},
@@ -45,7 +45,7 @@ data:extend(
     vehicle_impact_sound =  { filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65 },
     picture =
     {
-      filename = "__base__/graphics/entity/smart-chest/smart-chest.png",
+      filename = "__Large-Chests__/graphics/entities/smart-chest.png",
       priority = "extra-high",
       width = 62,
       height = 41,
@@ -67,11 +67,11 @@ data:extend(
     circuit_wire_max_distance = 7.5
   },
   {
-    type = "smart-container",
-    name = "smart-chest-medium",
-    icon = "__Large-Chests__/graphics/icons/smart-chest-plus.png",
+    type = "logistic-container",
+    name = "logistic-chest-storage-medium",
+    icon = "__Large-Chests__/graphics/icons/logistic-chest-storage-plus.png",
     flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "smart-chest-medium"},
+    minable = {mining_time = 1, result = "logistic-chest-storage-medium"},
     max_health = 400,
     corpse = "medium-remnants",
     resistances = 
@@ -90,16 +90,19 @@ data:extend(
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
+    logistic_mode = "storage",
     open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
     close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
     picture =
     {
-      filename = "__Large-Chests__/graphics/entities/smart-chest-medium.png",
+      filename = "__Large-Chests__/graphics/entities/logistic-chest-storage-medium.png",
       priority = "extra-high",
-      width = 124,
-      height = 82,
-      shift = {0.9, 0}
+      width = 76,
+      height = 64,
+      shift = {0.2, 0}
     },
+    circuit_wire_max_distance = 7.5
+  },
     circuit_wire_connection_point =
     {
       shadow =
@@ -113,9 +116,7 @@ data:extend(
         green = {0.6, -1.6}
       }
     },
-    circuit_wire_max_distance = 7.5
-  },
-  {
+    {
     type = "logistic-container",
     name = "logistic-chest-requester-medium",
     icon = "__Large-Chests__/graphics/icons/logistic-chest-requester-plus.png",
@@ -187,6 +188,19 @@ data:extend(
       height = 64,
       shift = {0.2, 0}
     },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
+    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -223,6 +237,19 @@ data:extend(
       width = 78,
       height = 64,
       shift = {0.2, 0}
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
     },
     circuit_wire_max_distance = 7.5
   },
@@ -261,53 +288,17 @@ data:extend(
       height = 66,
       shift = {0.2, 0}
     },
-    circuit_wire_max_distance = 7.5
-  },
-  {
-    type = "smart-container",
-    name = "smart-chest-big",
-    icon = "__Large-Chests__/graphics/icons/smart-chest-plus2.png",
-    flags = {"placeable-neutral", "player-creation"},
-    minable = {mining_time = 1, result = "smart-chest-big"},
-    max_health = 800,
-    corpse = "big-remnants",
-    resistances = 
-    {
-      {
-        type = "fire",
-        percent = 90
-      },
-      {
-        type = "physical",
-        percent = 20,
-        decrease = 2
-      }
-    },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
-    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
-	fast_replaceable_group =  "container-big",
-    inventory_size = 240,
-    open_sound = { filename = "__base__/sound/metallic-chest-open.ogg", volume=0.65 },
-    close_sound = { filename = "__base__/sound/metallic-chest-close.ogg", volume = 0.7 },
-    picture =
-    {
-      filename = "__Large-Chests__/graphics/entities/smart-chest-big.png",
-      priority = "extra-high",
-      width = 186,
-      height = 123,
-      shift = {1.3, 0}
-    },
     circuit_wire_connection_point =
     {
       shadow =
       {
-        red = {2.1, -0.9},
-        green = {2.1, -0.9}
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
       },
       wire =
       {
-        red = {0.9, -2.4},
-        green = {0.9, -2.4}
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
       }
     },
     circuit_wire_max_distance = 7.5
@@ -347,6 +338,19 @@ data:extend(
       height = 96,
       shift = {0.3, 0}
     },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -383,6 +387,19 @@ data:extend(
       width = 114,
       height = 96,
       shift = {0.3, 0}
+    },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
     },
     circuit_wire_max_distance = 7.5
   },
@@ -421,6 +438,19 @@ data:extend(
       height = 96,
       shift = {0.3, 0}
     },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
     circuit_wire_max_distance = 7.5
   },
   {
@@ -458,24 +488,24 @@ data:extend(
       height = 99,
       shift = {0.3, 0}
     },
+    circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {2.1, -0.9},
+        green = {2.1, -0.9}
+      },
+      wire =
+      {
+        red = {0.9, -2.4},
+        green = {0.9, -2.4}
+      }
+    },
     circuit_wire_max_distance = 7.5
   },
 }
 )
 
-data.raw["smart-container"]["smart-chest"].max_health = 200
-data.raw["smart-container"]["smart-chest"].resistances = 
-    {
-      {
-        type = "fire",
-        percent = 80
-      },
-      {
-        type = "physical",
-        percent = 5,
-        decrease = 1
-      }
-    }
 
 data.raw["logistic-container"]["logistic-chest-requester"].max_health = 200
 data.raw["logistic-container"]["logistic-chest-requester"].resistances = 
