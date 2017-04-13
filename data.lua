@@ -8,3 +8,4 @@ require("prototypes.logistic-chest-recipe")
 require("prototypes.logistic-chest-tech")
 
 require("prototypes.item-groups")
+require("prototypes.sort-chests")

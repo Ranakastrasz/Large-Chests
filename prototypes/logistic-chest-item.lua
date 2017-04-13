@@ -5,7 +5,7 @@ data:extend(
     name = "buffer-chest",
     icon = "__Large-Chests__/graphics/icons/buffer-chest.png",
     flags = {"goes-to-quickbar"},
-    subgroup = "small-chest",
+    subgroup = "other-chest",
     order = "k-c-m",
     place_result = "buffer-chest",
     stack_size = 50

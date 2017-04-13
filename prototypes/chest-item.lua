@@ -5,7 +5,6 @@ data:extend(
     name = "wooden-chest-medium",
     icon = "__Large-Chests__/graphics/icons/wooden-chest-plus.png",
     flags = {"goes-to-quickbar"},
-    fuel_value = "24MJ",
     subgroup = "medium-chest",
     order = "c-m-1",
     place_result = "wooden-chest-medium",
@@ -36,7 +35,6 @@ data:extend(
     name = "wooden-chest-big",
     icon = "__Large-Chests__/graphics/icons/wooden-chest-plus2.png",
     flags = {"goes-to-quickbar"},
-    fuel_value = "24MJ",
     subgroup = "big-chest",
     order = "c-ml-1",
     place_result = "wooden-chest-big",
@@ -64,7 +62,3 @@ data:extend(
   },
 }
 )
-
-data.raw["item"]["wooden-chest"].subgroup = "small-chest"
-data.raw["item"]["iron-chest"].subgroup = "small-chest"
-data.raw["item"]["steel-chest"].subgroup = "small-chest"
