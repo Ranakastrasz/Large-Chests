@@ -4,6 +4,7 @@ data:extend(
     type = "technology",
     name = "chest-4",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
 	  {
@@ -28,6 +29,7 @@ data:extend(
         {"science-pack-1", 1},
 		{"science-pack-2", 1},
 		{"science-pack-3", 1},
+        {"production-science-pack", 1},
       },
       time = 30
     },
@@ -38,6 +40,7 @@ data:extend(
     type = "technology",
     name = "chest-5",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
 	  {
@@ -66,7 +69,8 @@ data:extend(
         {"science-pack-1", 1},
 		{"science-pack-2", 1},
 		{"science-pack-3", 1},
-		{"alien-science-pack", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 45
     },
@@ -77,6 +81,7 @@ data:extend(
     type = "technology",
     name = "chest-6",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
       {
@@ -97,7 +102,8 @@ data:extend(
         {"science-pack-1", 1},
 		{"science-pack-2", 1},
 		{"science-pack-3", 1},
-		{"alien-science-pack", 1},
+        {"production-science-pack", 1},
+        {"high-tech-science-pack", 1}
       },
       time = 60
     },

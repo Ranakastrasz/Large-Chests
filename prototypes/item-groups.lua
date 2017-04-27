@@ -6,6 +6,7 @@ data:extend(
     order = "c-1",
 	inventory_order = "c-1",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
   },
   {
     type = "item-subgroup",

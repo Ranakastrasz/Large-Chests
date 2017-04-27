@@ -5,6 +5,7 @@ data:extend(
     type = "technology",
     name = "chest-1",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
       {
@@ -33,6 +34,7 @@ data:extend(
     type = "technology",
     name = "chest-2",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
 	  {
@@ -55,13 +57,14 @@ data:extend(
       },
       time = 15
     },
-    order = "c-2",
 	upgrade = true,
+    order = "c-2",
   },
   {
     type = "technology",
     name = "chest-3",
     icon = "__Large-Chests__/graphics/technology/chest.png",
+	icon_size = 64;
     effects =
     {
 	  {
