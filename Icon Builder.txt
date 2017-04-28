@@ -1,0 +1,22 @@
+-- Generates the icons definition for a barrel item with the provided name and fluid definition using the provided empty barrel base icon
+local function generate_barrel_item_icons(name, fluid, empty_barrel_item)
+  local side_tint = util.table.deepcopy(fluid.base_color)
+  side_tint.a = side_alpha
+  local top_hoop_tint = util.table.deepcopy(fluid.flow_color)
+  top_hoop_tint.a = top_hoop_alpha
+
+  return
+  {
+    {
+      icon = empty_barrel_item.icon
+    },
+    {
+      icon = barrel_side_mask,
+      tint = side_tint
+    },
+    {
+      icon = barrel_hoop_top_mask,
+      tint = top_hoop_tint
+    }
+  }
+end

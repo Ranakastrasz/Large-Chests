@@ -6,7 +6,7 @@ function addon_subgroup_order(type,name,subgroup,order)
 				data.raw[type][name].subgroup = subgroup
 		end
 	end
-	if order ~= nil and type  ~= nil and name ~= nil  then
+	if order ~= nil and type ~= nil and name ~= nil  then
 		if data.raw[type][name] then data.raw[type][name].order = order end
 	end
 
@@ -31,13 +31,13 @@ addon_subgroup_order("item", "logistic-chest-requester-medium"         , "medium
 addon_subgroup_order("item", "logistic-chest-active-provider-medium"   , "medium-chest","7")
 
 
-addon_subgroup_order("item", "wooden-chest-big "                     , "big-chest","1")
-addon_subgroup_order("item", "iron-chest-big "                       , "big-chest","2")
-addon_subgroup_order("item", "steel-chest-big "                      , "big-chest","3")
-addon_subgroup_order("item", "logistic-chest-storage-big "           , "big-chest","4")
-addon_subgroup_order("item", "logistic-chest-passive-provider-big "  , "big-chest","5")
-addon_subgroup_order("item", "logistic-chest-requester-big "         , "big-chest","6")
-addon_subgroup_order("item", "logistic-chest-active-provider-big "   , "big-chest","7")
+addon_subgroup_order("item", "wooden-chest-big"                     , "big-chest","1")
+addon_subgroup_order("item", "iron-chest-big"                       , "big-chest","2")
+addon_subgroup_order("item", "steel-chest-big"                      , "big-chest","3")
+addon_subgroup_order("item", "logistic-chest-storage-big"           , "big-chest","4")
+addon_subgroup_order("item", "logistic-chest-passive-provider-big"  , "big-chest","5")
+addon_subgroup_order("item", "logistic-chest-requester-big"         , "big-chest","6")
+addon_subgroup_order("item", "logistic-chest-active-provider-big"   , "big-chest","7")
 
 
 

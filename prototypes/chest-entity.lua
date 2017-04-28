@@ -40,7 +40,7 @@ data:extend(
         percent = 5
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
 	fast_replaceable_group =  "container-medium",
     inventory_size = 40,
@@ -89,7 +89,7 @@ data:extend(
         decrease = 1
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 80,
@@ -138,7 +138,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
@@ -182,7 +182,7 @@ data:extend(
         percent = 10
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 	fast_replaceable_group =  "container-big",
     inventory_size = 80,
@@ -231,7 +231,7 @@ data:extend(
         decrease = 1
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "container-big",
     inventory_size = 160,
@@ -280,7 +280,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "container-big",
     inventory_size = 240,

@@ -86,7 +86,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
@@ -103,20 +103,8 @@ data:extend(
     },
     circuit_wire_max_distance = 7.5
   },
-    circuit_wire_connection_point =
-    {
-      shadow =
-      {
-        red = {1.4, -0.6},
-        green = {1.4, -0.6}
-      },
-      wire =
-      {
-        red = {0.6, -1.6},
-        green = {0.6, -1.6}
-      }
-    },
-    {
+   
+  {
     type = "logistic-container",
     name = "logistic-chest-requester-medium",
     icon = "__Large-Chests__/graphics/icons/logistic-chest-requester-plus.png",
@@ -136,7 +124,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
 	fast_replaceable_group =  "container-medium",
     inventory_size = 96,
@@ -147,9 +135,22 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-requester-medium.png",
       priority = "extra-high",
-      width = 78,
+      width = 76,
       height = 64,
       shift = {0.2, 0}
+    },
+	circuit_wire_connection_point =
+    {
+      shadow =
+      {
+        red = {1.4, -0.6},
+        green = {1.4, -0.6}
+      },
+      wire =
+      {
+        red = {0.6, -1.6},
+        green = {0.6, -1.6}
+      }
     },
     circuit_wire_max_distance = 7.5
   },
@@ -173,7 +174,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
@@ -223,7 +224,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
@@ -234,7 +235,7 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-active-provider-medium.png",
       priority = "extra-high",
-      width = 78,
+      width = 76,
       height = 64,
       shift = {0.2, 0}
     },
@@ -273,7 +274,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-0.9, -0.9}, {0.9, 0.9}},
+    collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1.0, -1.0}, {1.0, 1.0}},
     fast_replaceable_group = "container-medium",
     inventory_size = 120,
@@ -284,8 +285,8 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-passive-provider-medium.png",
       priority = "extra-high",
-      width = 78,
-      height = 66,
+      width = 76,
+      height = 64,
       shift = {0.2, 0}
     },
     circuit_wire_connection_point =
@@ -323,7 +324,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
 	fast_replaceable_group =  "container-big",
     inventory_size = 240,
@@ -334,7 +335,7 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-requester-big.png",
       priority = "extra-high",
-      width = 117,
+      width = 114,
       height = 96,
       shift = {0.3, 0}
     },
@@ -373,7 +374,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "container-big",
     inventory_size = 240,
@@ -423,7 +424,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "container-big",
     inventory_size = 240,
@@ -434,7 +435,7 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-active-provider-big.png",
       priority = "extra-high",
-      width = 117,
+      width = 114,
       height = 96,
       shift = {0.3, 0}
     },
@@ -473,7 +474,7 @@ data:extend(
         decrease = 2
       }
     },
-    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     fast_replaceable_group = "container-big",
     inventory_size = 240,
@@ -484,8 +485,8 @@ data:extend(
     {
       filename = "__Large-Chests__/graphics/entities/logistic-chest-passive-provider-big.png",
       priority = "extra-high",
-      width = 116,
-      height = 99,
+      width = 114,
+      height = 96,
       shift = {0.3, 0}
     },
     circuit_wire_connection_point =
