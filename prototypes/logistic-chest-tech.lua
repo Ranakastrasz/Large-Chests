@@ -9,10 +9,6 @@ data:extend(
     {
 	  {
         type = "unlock-recipe",
-        recipe = "buffer-chest"
-      },
-	  {
-        type = "unlock-recipe",
         recipe = "logistic-chest-storage-medium"
       },
 	  {

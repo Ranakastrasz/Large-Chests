@@ -92,16 +92,5 @@ data:extend(
 	},
     result = "logistic-chest-passive-provider-big"
   },
-  {
-    type = "recipe",
-    name = "buffer-chest",
-	enabled = false,
-    ingredients = 
-	{
-		{"steel-chest", 1},
-		{"advanced-circuit", 1}
-	},
-    result = "buffer-chest"
-  },
 }
 )

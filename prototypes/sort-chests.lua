@@ -55,7 +55,6 @@ addon_subgroup_order("item", "warehouse-requester"          , "warehouse-chest" 
 addon_subgroup_order("item", "warehouse-active-provider"    , "warehouse-chest" ,"5")
         
         
-addon_subgroup_order("item", "buffer-chest"                     , "other-chest","1")
 addon_subgroup_order("item", "logistic-chest-passive-provider-2", "other-chest","2")
 addon_subgroup_order("item", "logistic-chest-active-provider-2" , "other-chest","3")
 addon_subgroup_order("item", "logistic-chest-storage-2"         , "other-chest","4")
