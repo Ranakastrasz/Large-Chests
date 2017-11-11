@@ -1,4 +1,6 @@
 -- Generates the icons definition for a barrel item with the provided name and fluid definition using the provided empty barrel base icon
+
+-- Should be possible to adapt to build icons with those + and - effects.
 local function generate_barrel_item_icons(name, fluid, empty_barrel_item)
   local side_tint = util.table.deepcopy(fluid.base_color)
   side_tint.a = side_alpha
